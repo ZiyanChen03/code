@@ -1,0 +1,15 @@
+练习一
+a1<-c(1:1000)
+?Trig
+a2<-1/a1
+a3<-atan(a2)
+
+x<-c(1:1000)
+y<-atan(x)
+w<-tan(y)
+z<-1/w
+
+练习二
+identical(x,z)
+all.equal(x,z)
+x==z
